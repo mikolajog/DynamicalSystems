@@ -1,0 +1,41 @@
+###### Zadanie 1 ######
+
+Zachowanie systemu dyskretnego x(k+1) = lambda*x(k) w zale¿noœci od lambda:
+
+(-inf, -1)
+niestabilny, oscylacje, wartoœci rosn¹ przeciwproporcjonalnie do lambdy
+
+(-1)
+niestabilny, oscylacje, przyjmuje naprzemian wartoœæ pocz¹tkow¹ i jej przeciwnoœæ
+
+(-1, 0)
+stabilny, oscyluje, d¹¿y do zera
+
+(0)
+stabilny, poza wartoœci¹ pocz¹tkow¹, wartoœci s¹ równe 0
+
+(0, 1)
+stabilny, d¹¿y do zera
+
+(1)
+stabilny, przyjmuje wartoœæ pocz¹tkow¹
+
+(1, inf)
+niestabilny, wartoœci rosn¹ wprostproporcjonalnie do lambdy
+
+###### Zadanie 2 ######
+
+Wykres przedstawia przybli¿enie sinusoidy. Im wiêkszy okres próbkowania tym przybli¿enie jest mniej dok³adne.
+Macierze podane przez prowadz¹cego, uk³ad stabilny.
+
+###### Zadanie 3 ######
+
+Wykres przedstawia sinusoidy z uk³adu ci¹g³ego i dyskretnego.
+Od okresu próbkowania h zale¿y wyg³adzenie funkcji. Im mniejsza wartoœæ tym funkcje s¹ bardziej zbli¿one, poniewa¿ pokrywaj¹ siê w punktach które s¹ wielokrotnoœci¹ h.
+Macierze wybrane, uk³ad stabilny.
+
+###### Zadanie 4 ######
+
+%nie jestem pewien poprawnoœci
+c_2 = -u/(2*((R_1*(R_1/(4*R_2) + 1))/(2*R_2))^(1/2)) 
+c_1 = u/(2*((R_1*(R_1/(4*R_2) + 1))/(2*R_2))^(1/2))

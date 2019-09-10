@@ -1,0 +1,31 @@
+Wnioski z Laboratorium 3 - Mikołaj Ogarek GR. ŚRODA 13:00(2b): 
+
+Zadanie 1:
+Analiza zachowania systemu x(k+1) =  λx(k) w zależności od wartości parametru  λ: 
+
+a) λ<-1 (λ=-2)
+Układ jest niestabilny.Przy rosnącym k, wartości rozbiegają się, naprzemian nad oś i pod oś odciętych przy coraz bardziej skrajnych wartościach. 
+b) λ=-1
+Układ jest niestabilny. Wartości to najpierw wartość początkowa, potem wartość do niej przeciwna i tak naprzemian. 
+c) -1<λ<0 (λ=-0.3)
+Układ asymptotycznie stabilny. Odległość od osi odciętych zmniejsza się tym szybciej im większa jest lambda. 
+d) λ=0
+Układ asymptotycznie stabilny. Pierwszą wartością jest wartość początkowa, natomiast pozostałe równe są 0. 
+e) <0λ<1 (λ=0.3)
+Układ asymptotycznie stabilny. Pierwsza wartość to wartość początkowa, następnie wartości maleją tym szybciej im lambda jest mniejsza, dążąc tym samym do wartości bliskich zero.  
+f) λ=1
+Układ stabilny. Każda wartość jest równa wartości początkowej układu. 
+g) λ>1 (λ=2)
+Układ niestabilny. Im większa jest lambda tym szybciej wartości się zwiększają. 
+
+Zadanie 2: Pokazano, że w chwilach ih układ ciągły i układ dyskretny przyjmują te same wartości.
+
+Zadanie 3: Im częściej kapitalizujemy odsteki, tym większy zysk mamy z lokaty. Na wykresie pokazałem wartość lokaty (oprocentowanie 5 %) po roku, dla różnych okresów kapitalizacji lokaty (miesięczną, 2 miesięczną, kwartalną, 4 miesięczną, półroczną i roczną). Jak można zauważyć, zysk jest największy, gdy kapitalizujemy odsetki co miesiąc. 
+
+Zadanie 4:
+Wybierając punkt początkowy z przedziałów:
+(-inf, -3> : wynikiem w zależności od epsilon (im mniejsze tym dokładniejsza wartość) jest -3.0000
+<2/3,1> : wynikiem w zależności od epsilon (im mniejsze tym dokładniejsza wartość) jest 1.0000
+<4, +inf) : wynikiem w zależności od epsilon (im mniejsze tym dokładniejsza wartość) jest 4.0000
+W pozostałych przypadkach w tym dla x0=-1 otrzymany wynik nie spełnia warunków działania algorytmu, gdyż powinien być spełniony warunek wyboru odpowieniego punktu startowego. Punktem startowym obliczeń jest ten koniec przedziału [a,b], w którym funkcja f(x) przyjmuje ten sam znak co jej druga pochodna, czyli zachodzi f(x0)*f''(x0)>0, gdzie x0=a lub x0=b. 
+Pomimo iż obliczając pierwiastki wielomianu analitycznie są one liczbami całkowitymi, to ze względu na błędy obcięcia, wyniki obliczeń nie są całkowite, dlatego określamy epsilon, czyli dopuszczalny błąd. Im jest on mniejszy, tym dokładniejszy jest wynik. Dla epsilona 0.001 wyniki dla podanego wielomianu są dokładne. 

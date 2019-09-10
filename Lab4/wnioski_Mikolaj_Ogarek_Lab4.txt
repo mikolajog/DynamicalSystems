@@ -1,0 +1,56 @@
+Wnioski z Laboratorium 4 - Mikołaj Ogarek GR. ŚRODA 13:00(2b): 
+
+Zadanie 1:
+Dla danej amplitudy sygnału sterowania (w modelu A=1) przy zwiększaniu częstotliwości sterowania w zakresie:
+-(0,5) : im większa częstotliwość sterowania tym większa amplituda sygnału wyjściowego, która rośnie do 1 (w zakresie od 0 do wartości około 1.5).
+-<5,+inf) : im większa częstotliwość sterowania tym mniejsza aplituda sygnału wyjściowego, która maleje do 0.
+
+Jednakże, niezależnie od parametrów sterowania, kilka początkowych okresów różni się od pozostałych. 
+
+Zadanie 2:
+Korzystając z kryterium Nyquista:
+
+System dany wzorem nr 1.20:  G(s) = (1/(s^2 + s + 2)):
+
+s1= -(1/2) - (i*sqrt(7))/2
+s2= -(1/2) + (i*sqrt(7))/2
+
+-układ otwarty: jest asymptotycznie stabilny, ponieważ Re(s1) < 0 oraz Re(s2) < 0
+-układ zamknięty: jest asymptotycznie stabilny, ponieważ układ otwarty jest asymptotycznie stabilny oraz wykres charakterystyki amplitudowo-fazowej G(s) nie obejmuje punktu (-1, 0) na płaszczyźnie zespolonej. 
+
+System dany wzorem nr 1.21:  G(s) = (s/(s^2 -0.1s + 1)):
+
+-układ zamknięty: nie jest asymptotycznie stabilny, ponieważ wykres charakterystyki amplitudowo-fazowej G(s) obejmuje punkt (-1, 0) na płaszczyźnie zespolonej. 
+
+Zadanie 3: 
+W każdym z 4 filtrów im większa jest częstotliwość tym mniejsza jest faza, która maleje gwałtownie dla jednych filtrów(filtr drugiego rzędu), a dla innych nieco łagodniej (dolnoprzepustowy, górnoprzepustowy, pasmoprzepustowy). 
+
+W każdym z filtrów dla danej częstotliwości zachodzi tłumienie, czyli zmniejszanie się amplitudy:
+-filtr dolnoprzepustowy: tłumienie sygnałów z częstotliwością powyżej 10^(-1) rad/s
+-filtr górnoprzepustowy: tłumienie sygnałów z częstotliwością poniżej 10^1 rad/s
+-filtr pasmoprzepustowy:tłumienie sygnałów z małą (poniżej 10^(-1)rad/s) częstotliwością lub dużą (powyżej 10^1 rad/s) częstotliwością 
+-filtr drugiego rzędu: tłumienie sygnałów z częstotliwością powyżej 1 rad/s, w otoczeniu 1 rad/s wzmocnienie sygnału, pozostałe nie są tłumione ani wzmacniane. 
+
+Po przepuszczeniu przez filtry sumy podanych sygnałów sinusoidalnych filtr drugiego rzędu wzmacnia sygnał, co znaczy, iż sygnał, ma częstotliwośc około 1 rad/s. 
+
+Zadanie 4:
+A_w = 20log_10(abs(1/(R*C*j*2*pi*fgr+1)))
+A_w = -20
+
+fgr - dane przez prowadzącego (z racji tego, że nie było zajęć przyjąłem fgr jako pierwiastek z sumy liter mojego imienia i nazwiska zatem fgr=sqrt(13))
+
+R*C=? 
+
+20log_10(abs(1/(R*C*j*2*pi*fgr+1))) = -20
+1/10 = 1/abs(R*C*j*2*pi*fgr+1)
+
+R*C = (3*sqrt(11))/(2*pi*fgr)
+
+fgr - dane przez prowadzącego (z racji tego, że nie było zajęć przyjąłem fgr jako pierwiastek z sumy liter mojego imienia i nazwiska zatem fgr=sqrt(13))
+
+zatem
+
+R*C = (3*sqrt(11))/(2*pi*sqrt(13)) co w przybliżeniu daje około 0.4394
+
+Zatem iloczyn R*C musi być równy 0.439, więc na przykład R=1 i C=0.4394
+

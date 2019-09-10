@@ -1,0 +1,34 @@
+Zachowanie systemu x(k+1) = lambda*x(k) w zale¿noœci od lambda:
+
+a) <-1, niestabilny, wartosci rosna tym szybciej im mniejsza lambda, oscylacje
+
+b) =-1, niestabilny, naprzemian dwie wartosci: poczatkowa i do niej przeciwna
+
+c) E(-1,0), asymptotycznie stabilny, wartosci maleja tym szybciej im lambda wieksza, oscylacje
+
+d) =0, asymptotycznie stabilny, pierwsza wartosc = wartosc poczatkowa, pozostale = 0
+
+e) E(0,1), asymptotycznie stabilny, wartosci maleja tym szybciej im lambda mniejsza
+
+f) =1, system stabilny, stale jedna wartosc
+
+g) >1, system niestabilny, wartosci zwiekszaja sie tym szybciej im wieksza lambda
+
+---------------------------------------
+
+model3.mdl + skrypt3.m
+
+a) wykres przedstawia w zale¿noœci od wektora B:
+   * dwie pary sinusoid ( B = [1;1] )
+   * jedn¹ parê sinusoid ( B = [1;0] lub B = [0;1] ) i dwie proste y=0
+   * cztery proste = 0 ( B = [0;0] )
+
+b) ka¿da para sinusoid sk³ada siê z:
+   * sinusoidy z systemu ci¹g³ego
+   * sinusoidy z systemu dyskretnego
+
+c) obydwie sinusoidy maj¹ punkty wspólne w wielokrotnoœciach okresu próbkowania
+
+d) w pozosta³ych punktach wykresy siê nie pokrywaj¹ (chyba, ¿e s¹ prostymi -> patrz pkt a) )
+
+e) z c) i d) wynika (i mo¿na to zaobserwowaæ w symulacji), ¿e im mniejsze h tym wykresy bardziej siê pokrywaj¹

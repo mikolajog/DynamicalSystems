@@ -1,0 +1,32 @@
+Wnioski z Laboratorium 5 - Mikołaj Ogarek GR. ŚRODA 13:00(2b): 
+
+Ad.1:
+
+-Przykład 1: 
+System dany równaniem x'(t) = -x(t) + εx(t)^2 posiada 2 punkty równowagi 0 i 1/ε. 
+Analizując wykres można zauważyć, że zerowy punkt równowagi z przykładu 1 jest asymptotycznie stabilny, natomiast punkt 1/ε, przyjmując przykładowo ε = 0.2, punkt równowagi to 5, nie jest stabilny. 
+
+-Przykład 2:
+System dany równaniem x'(t) = [-x1(t);-x2^2(t)]. 
+System ten posiada jeden punkt równowagi [0;0]. Jak można zauważyć na wykresie, punkt jest asymptotycznie stabilny. 
+
+-Przykład 3:
+System dany równaniem x'(t) = [x2(t);-2x1(t)-3x1^2(t)-x2(t)]. 
+Dany system ma dwa punkty równowagi [0;0](asymptotycznie stabilny w pewnym obszarze) i [-2/3;0](niestabilny). 
+
+Ad.2: Dla epsilon równe 0 punkt równowagi 0 jest asymprotycznie stabilny. 
+Dla epsilona większego od 0, rozmiar otoczenia, w którym dynamiki systemu zlinearyzowanego i nieliniowego są podobne ograniczony jest od góry przez wartość 1/epsilon. Poniżej tej wartości, linie zmierzają do zera, a powyżej zmierzają do nieskończoności. 
+
+Ad.3: Wpływ braku hiperboliczności.
+
+Ad.4:
+W przykładzie trzecim macierz Jakobiego J=[0   1;-2-6x1  -1];
+Dla zerowego punktu równowagi, system zlinearyzowany to: x'=[0 1 -2 -1]x
+Można obliczyć wartości własne tej macierzy są to λ = -0.5 +/-sqrt(7)/2
+Dla punktu równowagi [-2/3; 0] macierz Jakobiego J=[0 1 2 -1]. 
+Natomiast wartości własne tej macierzy to λ=1 i λ=-2. 
+
+Zatem, te dwa punkty równowagi spełniają założenia twierdzenia Grobmana-Hartmana(det(jwI-J(xr))!=0), więc trajektorie fazowe systemu nielinowego w pewnym otoczeniu punktu równowagi zachowują się podobnie jak trajektorie układu zlinearyzowanego w tym punkcie w otoczeniu zera.  
+
+
+

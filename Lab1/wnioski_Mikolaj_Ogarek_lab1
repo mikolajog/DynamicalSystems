@@ -1,0 +1,20 @@
+Wnioski z Laboratorium 1 - Mikołaj Ogarek: 
+
+1. Sterowanie równe 0 (układ autonomiczny), wówczas rozwiązanie ma postać:
+x(t) = WPC * e^(-t/R*C)
+WPC, czyli warunek początkowy wpływa na początkowy stan układu, x(0)= WPC.
+Zmiany R oraz C wpływają na spadek napięcia w czasie. Im większy iloczyn R*C tym wolniejszy jest spadek napięcia. 
+
+2. Gdy WPC=0, a sterowanie jest stałe(większe od 0) wówczas napięcie rośnie. Im większe sterowanie tym szybszy wzrost napięcia. 
+
+3. Kiedy sterowanie równe jest 1 a zmienny jest WPC, to wyróżniamy 3 przypadki: 
+0<WPC<1 - szybki wzorst napięcia do wartości bliskiej 1 i dążenie do U=1.
+WPC=1 - napięcie stałe równe 1.
+WPC>1 - napięcie bardzo szybko maleje do wartości bliskiej 1.
+ 
+4. Dla sygnału skokowego, przy WPC=0:
+s=3, 0<=t<=5 - wówczas napięcie rośnie do U=3 tym szybciej im mniejszy jest iloczyn R*C
+s=0, t>5 - wówczas napięcie maleje do poziomu U=0, tym szybciej im mniejszy jest iloczyn R*C
+
+5. Dla układu przyjmującego postać sinusoidy o amplitudzie 1 oraz częstotliwości 10Hz oraz czasu symulacji 6 razy większego niż iloczyć R*C: 
+Rozwiązanie to wykres funkcji sinus, która wraz z biegem czasu przyjmuje coraz mniejsze wartości. Od mniej więcej 50 sekundy oscyluje w ustalonym zakresie -0.01<=U<=0.01

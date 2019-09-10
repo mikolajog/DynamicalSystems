@@ -1,0 +1,25 @@
+###### Zadanie 1 ######
+
+Dla uk³adu opisanego przy pomocy transmitancji G(s) wyznaczyczy³em symulacyjnie odpowiedzi uk³adu na rózne wymuszenia sinusoidalne oraz kwadratowe.
+OdpowiedŸ jest o mniejszej amplitudzie oraz przesuniêciem w fazie dla sygna³u sinusoidalnego.
+Pocz¹tkowo odpowiedŸ oscyluje z dodatkow¹ wiêksz¹ czêstotliwoœci¹ oraz amplitud¹. Lecz dodatkowa oscylacja zanika.
+
+###### Zadanie 2 ######
+
+System 1.20 stabilny
+Poniewa¿ wykres charakterystuki amplitudowo-fazowej transmitancji G(s) nie obejmuje punktu (-1, 0) na p³aszczyŸnie zespolonej
+
+System 1.21 niestabilny
+Poniewa¿ wykres charakterystuki amplitudowo-fazowej transmitancji G(s) obejmuje punktu (-1, 0) na p³aszczyŸnie zespolonej
+
+###### Zadanie 3 ######
+
+Z charakterystyk mo¿emy odczytaæ jakie czêstotliwoœci s¹ t³umione.
+Filtr dolnoprzepustowy t³umi wysokie czêstotliwoœci
+Filtr górnoprzepustowy t³umi niskie czêstotliwoœci
+Filtr pasmoprzepustowy t³umi niskie i wysokie czêstotliwoœci
+Filtr drugiego rzêdu t³umi wysokie czêstotliwoœci, oraz wzmacnia œrednie
+
+###### Zadanie 4 ######
+
+RC = 

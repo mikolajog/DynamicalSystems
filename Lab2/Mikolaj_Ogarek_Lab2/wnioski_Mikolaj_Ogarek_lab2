@@ -1,0 +1,71 @@
+Wnioski z Laboratorium 2 - Mikołaj Ogarek GR. ŚRODA 13:00(2b): 
+
+Podsumowanie 9 różnych typów portretów fazowych związanych z wartościami własnymi z rysunku 1.10: 
+
+1.Podwójna wartość własna(λ_1=0), liniowy dzielnik elementarny:
+Typ: "kropki", punkty początkowe nie zmieniają swojej wartości.  
+J=[0 0;0 0]
+Zmiana wartości własnych: Brak wpłwu na portret fazowy. 
+Zmiana wektorów własnych: Brak wpłwu na portret fazowy. 
+Jak zmieniać wartość warunków początkowych?: WPC=[sin(x) ; cos(x)], koło jednostkowe o środku w (0,0), iterujemy po x
+
+2.Podwójna wartość własna(λ_1=0), nielinowy dzielnik elementarny: 
+Typ: "linie poziome na zewnątrz", punkty początkowe dla: 
+-x2<0: dążą do mniejszej wartości po prostej poziomej
+-x2=0: nie zmieniają wartości
+-x2>0: dążą do większej wartości po prostej poziomej. 
+J=[0 1;0 0]
+Zmiana wartości własnych: Brak wpłwu na portret fazowy. 
+Zmiana wektorów własnych: Wykres zależy od różnicy d= P(1,1) - P(2,2):
+Im większe d tym bardziej portret wykres rozciąga się wzdłuż osi Ox1.
+Im mniejsze d tym mniej portret rozciąga się wzdłuż osi Ox1.
+Jak zmieniać wartość warunków początkowych?: WPC=[x,x], iterujemy po x. 
+
+3.Wartości własne λ_1=-1, λ_2=0 :
+Typ: "linie poziome do wewnątrz", punkty dążą do wartości x1=0 po poziomej prostej.  
+J=[-1 0;0 0]
+Zmiana wartości własnych: Brak wpłwu na portret fazowy.
+Zmiana wektorów własnych: Brak wpłwu na portret fazowy.
+Jak zmieniać wartość warunków początkowych?: WPC=[x,x], iterujemy po x. 
+
+4.Wartości własne λ_1=-1, λ_2=-2 :
+Typ: "węzeł", wszystkie punkty początkowe zmierzają do punktu (0,0), po odgiętym łuku.
+J=[-1 0;0 -2]
+Zmiana wartości własnych: Im mniejsza różnica między wartościami własnymi, tym bliżej siebie zbiegają linie, są bardziej strome. 
+Zmiana wektorów własnych: Przedłużenia wektorów własnych odpowiadają swego rodzaju asymptotom. 
+Jak zmieniać wartość warunków początkowych?: WPC=[sin(x) ; cos(x)], koło jednostkowe o środku w (0,0), iterujemy po x
+
+5.Podwójna wartość własna(λ_1,2=-1), liniowy dzielnik elementarny: 
+Typ: "gwiazda", wszystkie punkty zmierzają do punktu (0,0) po linii prostej
+J=[-1 0;0 -1]
+Zmiana wartości własnych: Brak wpłwu na portret fazowy. 
+Zmiana wektorów własnych: Brak wpłwu na portret fazowy. 
+Jak zmieniać wartość warunków początkowych?: WPC=[sin(x) ; cos(x)], koło jednostkowe o środku w (0,0), iterujemy po x. 
+
+6.Podwójna wartość własna(λ_1,2=-1), nielinowy dzielnik elementarny:   
+Typ: "węzeł zdegenerowany", punkty początkowe zmierzają do punktu (0, 0) kreśląc łuk względem pewnej prostej.
+J=[-1 1;0 -1]
+Zmiana wartości własnych: Im mniejsze wartości własne, tym bardziej linie stają się proste i dążą do jednego punktu. 
+Zmiana wektorów własnych: Przedłużenia wektorów własnych odpowiadają swego rodzaju asymptotom. 
+Jak zmieniać wartość warunków początkowych?: WPC=[sin(x) ; cos(x)], koło jednostkowe o środku w (0,0), iterujemy po x.
+
+7.Wartości własne λ_1=-1, λ_2=1 :
+Typ: "siodło", punkty początkowe zakreślają tor hiperboli
+J=[-1 0;0 1]
+Zmiana wartości własnych: Im mniejsze wartości własne, tym bardziej spłaszczony wykres
+Zmiana wektorów własnych: Brak wpływu na portret fazowy. 
+Jak zmieniać wartość warunków początkowych?: WPC=[sin(x) ; cos(x)], koło jednostkowe o środku w (0,0), iterujemy po x.
+
+8.Wartości własne zespolone, sprzężone(λ_1,2=a+/-i), gdzie a=0:
+Typ: "środek", zbiór okręgów
+J=[0 -1;1 0]
+Zmiana wartości własnych: Gdy zmniejszymy mniejszą wartość to rozszerzamy wykres(Ox1), gdy zwiększymy większą wartość, wówczas wydłużamy wykres(Ox2). 
+Zmiana wektorów własnych: Zwiększenie wartości w pierwszym wektorze skutkuje rozszerzeniem wykresu, natomiast zwiększenie wartości w drugim wektorze powoduje wydłużenie wykresu. Analogicznie podczas zmniejszania wartości.
+Jak zmieniać wartość warunków początkowych?: WPC=[x,x], iterujemy po x. 
+
+9.Wartości własne zespolone, sprzężone(λ_1,2=a+/-i), gdzie a=-1:
+Typ: "ognisko", punkty początkowe zmierzają po torze spieralnym do punktu (0,0).
+J=[-1 -1;1 -1]
+Zmiana wartości własnych: Brak wpływy przy zmianie części urojonych. 
+Zmiana wektorów własnych: Zwiększenie wartości w pierwszym wektorze skutkuje rozszerzeniem wykresu, natomiast zwiększenie wartości w drugim wektorze powoduje wydłużenie wykresu. Analogicznie podczas zmniejszania wartości.
+Jak zmieniać wartość warunków początkowych?: WPC=[x,x], iterujemy po x.  

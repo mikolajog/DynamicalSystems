@@ -1,0 +1,69 @@
+J =
+0 0
+0 0
+
+Nie mo¿na zmieniæ wartoœci w³asnej.
+
+==============
+
+J =
+0 1
+0 0
+
+Nie mo¿na zmieniæ wartoœci w³asnej.
+
+==============
+ 
+J =
+0 0
+0 -1
+
+Brak zmiany portretu fazowego przy zmianie wartoœci w³asnej
+
+==============
+ 
+J =
+-1 0
+0 -2
+
+Im wartoœci w³asne s¹ bli¿ej siebie tym linie zbiegaj¹ siê bli¿ej siebie. Staj¹ siê bardziej proste ni¿ wygiête.
+
+==============
+ 
+J =
+-1 0
+0 -1
+
+Brak zmiany portretu fazowego przy zmianie wartoœci w³asnej
+
+==============
+ 
+J =
+-1 1
+0 -1
+
+Jesli wartoœci w³asne s¹ mniejsze to linie staj¹ siê bardziej proste i d¹¿a do jednego punktu
+
+==============
+
+J =
+-1 0
+ 0 1
+
+Linie staj¹ siê bardziej poziome jeœli zmniejszamy wartoœæ mniejsz¹ od 0. Jeœli zwiêkszamy wartoœæ wiêksz¹ od 0 to linie staj¹ siê bardziej poziome.
+
+==============
+ 
+J =
+0 -1
+1 0
+
+Zmiana czêœci urojonych nie zmienia portretu.
+
+==============
+ 
+J =
+-1 -1
+ 1 -1
+
+

@@ -1,0 +1,2 @@
+Metoda ode45 zaimplementowana w Matlabie jest najskuteczniejsza jeœli chodzi o liczbê wywo³añ (koszt metody) jest kilka rzêdów mniejsza ni¿ w pozosta³ych metodach. Najbardziej kosztown¹, ale zarazem najdok³adniejsz¹ (najmniejszy b³¹d) jest metoda Rungego-Kutta. Metoda Eulera jest czymœ poœrodku - b³¹d mniejszy ni¿ w ode45, jdnak liczba wywo³añ sporo wiêksza (nadal mniejsza ni¿ w R-K).
+Zwiêkszaj¹c tolerancjê dla ode45 b³ad pozostaje sta³y.

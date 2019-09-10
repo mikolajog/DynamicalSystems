@@ -1,0 +1,37 @@
+1.
+System dyskretny a zale¿noœci od parametru lambda:
+
+lambda<-1
+Uk³ad niestabilny, oscyluj¹cy
+
+lambda=-1
+Uk³ad oscyluje, wartoœci na przemian WPC i -WPC
+
+-1<lambda<0
+asymptotycznie stabilny
+Uk³ad oscyluje i zbiega z czasem do zera
+
+lambda=0
+uk³ad ma sta³e rozw. = 0
+
+0<lambda<1
+uk³ad asymptotycznie stabilny
+rozw. zmierza do zera
+
+lambda=1
+Uk³ad ma sta³e rozwi¹zanie = WPC
+
+lambda>1
+Uk³ad niestabilny
+rozw. zmierza do nieskoñczonoœci
+
+
+2.
+
+im mniejsze h tum bardziej g³adka jest funkcja,
+dla du¿ych zmienia siê skokowo
+
+3.
+
+System dyskretny niewiele ró¿ni siê od systemu ci¹g³ego
+im mniejszy okres próbkowania 
